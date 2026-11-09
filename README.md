@@ -56,13 +56,6 @@ keyAlias=…
 keyPassword=…
 ```
 
-## 🚀 Выпуск новой версии
-
-1. Поднять `versionCode` и `versionName` в `app/build.gradle.kts`.
-2. Описать изменения в `release-notes/vX.Y.md` и закоммитить в `main`.
-3. GitHub Actions соберёт подписанный APK и опубликует релиз, приложения сами предложат обновиться.
-
-Секреты репозитория для подписи: `KEYSTORE_BASE64`, `KEYSTORE_PASSWORD`, `KEY_ALIAS`, `KEY_PASSWORD`.
 
 ## 📄 Лицензия
 
