@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Glass disc -->
+    <path
+        android:pathData="M54,25 A29,29 0 1 1 53.99,25 Z"
+        android:strokeWidth="1.2">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="24" android:startY="24" android:endX="84" android:endY="84">
+                <item android:offset="0" android:color="#57FFFFFF" />
+                <item android:offset="1" android:color="#14FFFFFF" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="linear" android:startX="24" android:startY="24" android:endX="84" android:endY="84">
+                <item android:offset="0" android:color="#F2FFFFFF" />
+                <item android:offset="0.5" android:color="#26FFFFFF" />
+                <item android:offset="1" android:color="#99FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Handset -->
+    <group android:translateX="31.2" android:translateY="31.2" android:scaleX="1.9" android:scaleY="1.9">
+        <path android:pathData="M6.62,10.79c1.44,2.83 3.76,5.14 6.59,6.59l2.2,-2.2c0.27,-0.27 0.67,-0.36 1.02,-0.24 1.12,0.37 2.33,0.57 3.57,0.57 0.55,0 1,0.45 1,1V20c0,0.55 -0.45,1 -1,1 -9.39,0 -17,-7.61 -17,-17 0,-0.55 0.45,-1 1,-1h3.5c0.55,0 1,0.45 1,1 0,1.25 0.2,2.45 0.57,3.57 0.11,0.35 0.03,0.74 -0.25,1.02l-2.2,2.2z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear" android:startX="3" android:startY="3" android:endX="21" android:endY="21">
+                    <item android:offset="0" android:color="#FFFFFFFF" />
+                    <item android:offset="1" android:color="#FFCCFFE0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+    <!-- Polaris -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M71,30 Q71.8,35.2 77,36 Q71.8,36.8 71,42 Q70.2,36.8 65,36 Q70.2,35.2 71,30 Z" />
+</vector>
